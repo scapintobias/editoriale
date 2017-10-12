@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700,400italic');
+
+#sidebar {
+    background-color: white;
+    font-family: Karla, Helvetica, Arial, sans-serif;
+}
+
+
+/* HEADER */
+
+.header {
+    background-color: #008cd2;
+    color: white;
+    text-overflow: ellipsis;
+}
+
+.header > h1 {
+    font-size: 48px;
+    letter-spacing: -0.5px;
+    line-height: 55px;
+    padding-left: 5px;
+    font-weight: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+
+/* INTRO */
+        
+.contents > .intro {
+    color: #939393;
+    font-size: 18px;
+    line-height: 25.5px;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* LUOGO */
+
+.location {
+	cursor: pointer;
+	padding: 15px 10px;
+	height: 80px;
+}
+
+.location:hover {
+	border: 1px solid #d2f0ff;
+	padding: 14px 9px;
+}
+
+.location .numero {
+	border: 2px solid #008cd2;
+	border-radius: 50%;
+	color: #008cd2;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	height: 50px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	padding: 14px;
+	text-align: center;
+	width: 50px;
+	line-height: 50px;
+}
+
+.location .info {
+	float: left;
+	width: 283px;
+}
+
+.location .info h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0 0 5.5px 0;
+}
+
+
+/* LUOGO SELEZIONATO */
+
+.location.selected {
+	border: 1px solid #06acff !important;
+	padding: 14px 9px;
+}
+
+.location.selected .numero {
+	background-color: #008cd2;
+	color: #fff;
+}
+
+
+
+/* ICONE MAPPA */
+
+/* marker di default */
+.icon {
+	background-color: red;
+	border-radius: 15px;
+	border: 2px solid rgba(0, 0, 0, 0.3);
+	color: white;
+	font-family: Karla, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	text-align: center;
+	line-height: 1.3em;	
+}
+
+.icon:hover {
+	background-color: #005ca2 !important;
+}
+
+/* marker selezionato */
+.icon.selected {
+	background-color: white !important;
+	color: black !important;
+}
+
+
+
+
+/* STYLING PER TIPOLOGIA */
+
+
+/* sidebar luoghi B */
+.location.B .numero {
+	border-color: #f8ac30;
+	color: #f8ac30;
+}
+
+/* sidebar luoghi B selezionati*/
+.location.B.selected .numero {
+	background-color: #f8ac30;
+	color: #ffffff;
+}
+
+
+/* marker luoghi B */
+.icon.B {
+	background-color: #f8ac30;
+	border-radius: 0;
+}
+
+/* marker luoghi B selezionati */
+.icon.B.selected {}
+
+/* marker luoghi B con contenuti estesi */
+.icon.B.hasPath {}

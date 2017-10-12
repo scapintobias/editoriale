@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="format.css">
+</head>
+<body>
+
+
+
+    <div id="logo">
+        <a target="_blank" href="http://milieuedizioni.it">
+            <img src="img/milieu.png">
+        </a>
+    </div>
+ 
+
+<div class="w3-content w3-display-container" style="max-width:600px; max-height: 400px;">
+  <img class="mySlides" src="img/bao/bao-1.jpg" style="width:100%">
+  <img class="mySlides" src="img/bao/bao-2.jpg" style="width:100%">
+  <img class="mySlides" src="img/bao/bao-3.jpg" style="width:100%">
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+    <div id="story">
+            <h4>
+                    Milieu è un editore indipendente specializzato in memoir, storia sociale, crime fiction, true crime, memorie e biografie politiche. Nato nel 2012 a Milano.
+Milieu edizioni nasce a Milano come progetto di ricerca sulla storia criminale e sociale del Novecento e in un secondo momento si sviluppa come proposta editoriale a partire dal maggio 2012. Nel nome stesso della casa editrice sta il senso di questo percorso, nel fascino verso una mala a suo modo romantica e nella ricerca dei meccanismi “ambientali”, il milieu appunto, che influiscono sulle scelte dei singoli. Nella passione per la storia del Novecento e in particolare per le sue figure scomode e rimosse, ma soprattutto in un processo di “storia sociale in fieri,” in una continua ricerca delle cause antropologiche e culturali che muovono i percorsi biografici, “le microstorie che fanno la storia”. Un percorso che è fatto di libri, ma anche di presentazioni, immagini, suoni, dialoghi e attraversamenti.
+In diversi ambiti di ricerca il concetto di milieu è utilizzato per indicare le caratteristiche più profonde dei luoghi, la relazione inscindibile che si creano tra spazio, evoluzione e società. Il milieu è visto come l’insieme di condizioni naturali e socio-culturali che si stratificano in un determinato luogo nel corso del tempo. Il milieu, con i suoi codici comunicativi rappresenta il substrato locale dei processi di sviluppo. Nell’originale francese può anche indicare un ambiente malavitoso, come testimonia la definizione “Le Milieu” (o mutant) attribuita alle organizzazioni criminali marsigliesi nella prima metà del Novecento. Il milieu come luogo dell’immaginario sospeso tra storia, mito, ricerca e narrazione che ben si adatta a descrivere un progetto di ricerca che mira a raccontare le trasformazioni attraverso le storie e i suoi protagonisti.
+Abbiamo deciso di lavorare a stretto contatto con i protagonisti di queste storie, non solo con le fonti giornalistiche e giudiziarie, ma con le memorie dirette dei banditi e dei loro familiari. Faremo rivivere disparati contesti storici con una prospettiva inedita. Intrecciando testimonianze orali di differenti epoche storiche: dalla mala romantica del passato remoto rispettosa di un antico codice d’onore e in cui componenti si sentono tutt’ora dei sopravvissuti, degli highlander di un’epoca d’oro, ai banditi degli anni Settanta, indiani metropolitani all’assalto di “diligenze” furgoni portavalori, banche, gioiellerie, esaltati e incoraggiati dal rifiuto totale del lavoro/fabbrica. Daremo spazio a donne e uomini protagonisti di storie avvincenti, ma spesso relegati ai margini del mondo culturale, con l’obiettivo di farli diventare finalmente degni di essere interpreti e registi della propria esperienza di vita. In attesa di declinare la nostra personale visione di milieu con altre aree di ricerca e altre storie, cominciamo con la collana “Banditi senza tempo”.
+
+
+            </h4>
+    </div>
+
+    </body>
+</html>
