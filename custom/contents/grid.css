@@ -1,0 +1,285 @@
+@font-face {
+	font-family: 'Uniweb';
+	src: url('http://arlandi.design/font/UniwebLt.eot');
+	src: url('http://arlandi.design/font/UniwebLt.eot?#iefix') format('embedded-opentype'),
+		url('http://arlandi.design/font/UniwebLt.woff') format('woff'),
+		url('/font/UniwebLt.ttf')  format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Uniweb';
+	src: url('http://arlandi.design/font/UniwebMd.eot');
+	src: url('http://arlandi.design/font/UniwebMd.eot?#iefix') format('embedded-opentype'),
+		url('http://arlandi.design/font/UniwebMd.woff') format('woff'),
+		url('http://arlandi.design/font/UniwebMd.ttf')  format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+::selection {               background: #e8431e; color: #fafafa }
+::-moz-selection {          background: #e8431e; color: #fafafa }
+::-webkit-scrollbar {           height: 12px; width: 1px; background: #000b07; }
+::-webkit-scrollbar-thumb {     background: #fafafa; -webkit-border-radius: 1ex; -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75); }
+::-webkit-scrollbar-corner {    background: #000; }
+
+body {                      /*background-color: #f7f4e5*//* background-color: #fafafa; }*/
+#underlay {                 position: absolute; font-size: 0; box-sizing: border-box; top: 0; padding: 1.1494vw 0 0 2.2989vw; width: 99vw; z-index: 1; display: none }
+#underlay .element {            border: 1px #dadada solid; box-sizing: border-box; opacity: 0; transition: opacity 0.2s ease-in-out }
+#underlay.showunder {                display: block }
+#underlay.showunder .element {           opacity: 1 }
+#main {                     z-index: 5; }
+
+a {                         color: #e8431e; text-decoration: none; }
+a:visited {                 color: #e8431e; }
+a:hover {                   text-decoration: underline }
+
+header {                    position: absolute; font-size: 0; box-sizing: border-box; top: 0; padding: 1.1494vw 0 0 2.2989vw; width: 100vw; z-index: 10;  }
+#logo {                     height: 5.7472vw; }
+#nav {                      margin: 0; padding: 0; list-style: none }
+#nav li {                       margin: 0; font-family: 'Uniweb', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 1.7vw; letter-spacing: 0.01em }
+#nav li a {                     color: #fafafa; text-decoration: none }
+
+.stripe {                   position: absolute; bottom: 0; left: -2.2989vw; height: 2.2989vw; width: 100vw;  background-color: #000b07; box-sizing: border-box; padding: 0 0 0 2.2989vw; }
+.accent {                   color: #e8431e }
+.button {                   display: block; width: 100%; height: 48px; box-sizing: border-box; color: #e8431e; border: 3px #e8431e solid; text-decoration: none; text-align: center;
+                            margin: 0; font-family: 'Uniweb', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 600; font-size: 1.5vw; line-height: 42px; transition: all 0.1s ease-in-out }
+.button_top {               margin: 2.2989vw 0 1.1494vw 0 }
+.button:hover {                 background-color: #e8431e; color: #fafafa; text-decoration: none;}
+
+h1 {                        }
+h2 {                        margin: 0; font-family: 'Uniweb', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 1.7vw; color: #fafafa; letter-spacing: 0.01em }
+h3 {                        margin: -1px 0 0 0; font-family: 'Uniweb', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 600; font-size: 1.7vw; color: black; line-height: 2.2989vw; }
+h4 {                        margin: 2.2989vw 0 0 0; font-family: 'Uniweb', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 600; font-size: 1.7vw; color: #e8431e; width: 100% }
+h5 {                        margin: -1.5vw 0 0 0; font-family: 'Uniweb', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 600; font-size: 16vw; color: #fff; width: 100% }
+p {                         margin: 0; font-family: 'Uniweb', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1.32vw; line-height: 1.5vw; color: #222; letter-spacing: 0.01em; }
+strong {                    font-weight: 600; letter-spacing: 0; color: #000b07; }
+hr {                        position: absolute; left: 0; margin-top: -1.1494vw; border: none; border-top: 1px #000b07 solid; width: 100vw }
+footer {                    height: 2.2989vw; width: 100vw; background-color: #000b07; margin-top: 4.5978vw; margin-left: -2.2989vw; border: none; }
+#hangquote {                font-family: 'Uniweb', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 600; font-size: 1.7vw; color: #e8431e; text-align: right; margin: 2.2989vw 0 0 0; }
+#author {                   font-family: 'Uniweb', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1.32vw; line-height: 1.5vw; color: #222; }
+
+.payoff {
+                            margin-left: 20px;
+                            
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#scheme {                   width: 55.1724vw; background-color: #fafafa; margin: -1px 0 0 -1px }
+#tiles1 {                   width: 55.1724vw; padding-left: 24.1379vw; height: auto; background-color: #fafafa; margin: -5px 0 0 -1px }
+#tiles2a {                  height: 100%; background-color: #fafafa; }
+#rows {                     width: 22.9885vw; position: absolute; height: 100%; overflow-x: hidden; background-color: #fafafa; margin-top: -5px; display: block}
+#original {                 height: 90%; margin: 1.1494vw 0 0 2.2989vw }
+#cc {                       height: 36px; margin-top: 2.7vw }
+
+input#toggle {              max-height: 0; max-width: 0; opacity: 0; margin-top: 2.8vw; }
+input#toggle + label {          display: block; position: relative; box-shadow: inset 0 0 0px 3px #d5d5d5; text-indent: -5000px; height: 36px; width: 72px; border-radius: 18px; cursor: pointer }
+input#toggle + label:before {   content: ""; position: absolute; display: block; height: 36px; width: 36px; top: 0; left: 0; border-radius: 18px; background: rgba(19, 191, 17, 0);
+                                -moz-transition: .2s ease-in-out; -webkit-transition: .2s ease-in-out; transition: .2s ease-in-out; }
+input#toggle + label:after {    content: ""; position: absolute; display: block; height: 36px; width: 36px; top: 0; left: 0px; border-radius: 18px; background: white;
+                                box-shadow: inset 0 0 0 3px rgba(0, 0, 0, .2); -moz-transition: .2s ease-in-out; -webkit-transition: .2s ease-in-out; transition: .2s ease-in-out; }
+input#toggle:checked + label:before {   width: 72px; background: #e8431e; }
+input#toggle:checked + label:after {    left: 36px; box-shadow: inset 0 0 0 3px #e8431e }
+
+.h9_w2 {                    height: 71.9946vw; width: 14.9425vw; }
+.h9_w3 {                    height: 71.9946vw; width: 22.9885vw; }
+.h9_w7 {                    height: 71.9946vw; width: 55.1724vw; }
+.tiles {                    height: auto; width: 79.3104vw;}
+.h10_w7 {                   height: 79.3104vw; width: 55.1724vw; }
+
+@media screen and (min-width: 1300px) and (max-width: 1599px) {
+    #underlay {                 padding: 1.4925vw 0 0 2.9851vw; width: 99vw; }
+    header {                    padding: 1.4925vw 0 0 2.9851vw; height: 8.209vw; overflow: hidden }
+    #logo {                     height: 5.2239vw; }
+
+    #nav li {                   margin: 0; font-size: 1.6vw; letter-spacing: 0.01em }
+    .stripe {                   left: -2.9851vw; height: 2.9851vw; padding: 0 0 0 2.9851vw; }
+
+    h2 {                        margin: 0; font-size: 1.6vw; letter-spacing: 0.01em }
+    h3 {                        margin: 0; font-size: 1.7vw; line-height: 2.9851vw; }
+    h4 {                        margin: 0; font-size: 1.6vw; line-height: 2vw }
+    p {                         margin: 0; font-size: 1.5vw; line-height: 1.75vw; letter-spacing: 0.01em; }
+    hr {                        margin-top: -1.4925vw; }
+    footer {                    height: 2.9851vw; margin-top: 0; margin-left: -2.9851vw; }
+    #hangquote {                font-size: 1.6vw; line-height: 2vw; margin: 0 }
+    #author {                   font-size: 1.5vw; line-height: 1.75vw; letter-spacing: 0.01em; }
+
+    .button {                   font-size: 1.5vw; }
+    .button_top {               margin: 4.4776vw 0 1.4925vw 0 }
+    input#toggle {              margin-top: 5vw; }
+
+    #scheme {                   width: 70.1493vw; margin: -1px 0 0 -1px }
+    #tiles1 {                   width: 58.2090vw; padding-left: 23.8806vw; margin: -2px 0 0 -1px }
+    #tiles2a {                  height: 100%; background-color: #fafafa; }
+    #rows {                     width: 22.3881vw; margin-top: -2px; display: block }
+    #original {                 height: 90%; margin: 1.4925vw 0 0 2.9851vw }
+    #cc {                       margin-top: 3.2vw }
+
+    .lh6_w1 {                   height: 70.1493vw; width: 10.4478vw; }
+    .lh9_w5 {                   height: 105.9702vw; width: 58.2090vw; }
+    .tiles {                    height: 69vw; width: 82.0896vw;}
+}
+@media screen and (min-width: 1024px) and (max-width: 1299px) {
+    #underlay {                 padding: 1.7544vw 0 0 3.5088vw; width: 99vw; }
+    header {                    padding: 1.7544vw 0 0 3.5088vw; height: 10.5263vw; overflow: hidden }
+    #logo {                     height: 7.0175vw; }
+
+    #nav li {                   margin: 0; font-size: 2vw; letter-spacing: 0.02em }
+    .stripe {                   left: -3.5088vw; height: 3.5088vw; padding: 0 0 0 3.5088vw; }
+
+    h2 {                        margin: 0; font-size: 2vw; letter-spacing: 0.02em }
+    h3 {                        margin: 0; font-size: 2vw; line-height: 3.5088vw; }
+    h4 {                        margin: 0; font-size: 2vw; line-height: 2.5vw }
+    p {                         margin: 0; font-size: 1.75vw; line-height: 2.05vw; letter-spacing: 0.02em; }
+    hr {                        margin-top: -1.7544vw; }
+    footer {                    height: 3.5088vw; margin-top: 0; margin-left: -3.5088vw; }
+    #hangquote {                font-size: 2vw; line-height: 2.5vw; margin: 0 }
+    #author {                   font-size: 1.75vw; line-height: 2.05vw; letter-spacing: 0.02em; }
+
+    .button {                   font-size: 1.75vw; }
+    .button_top {               margin: 3.5088vw 0 1.7544vw 0 }
+    input#toggle {              margin: 3.3vw 0 0 0; padding-left: 3.5088vw }
+
+    #scheme {                   width: 77.1930vw; margin: -1px 0 0 -1px }
+    #tiles1 {                   width: 61.4035vw; padding-left: 31.579vw; margin: 3.5088vw 0 0 -1px }
+    #tiles2a {                  height: 100%; background-color: #fafafa; }
+    #rows {                     width: 29.8246vw; margin-top: 3.5088vw; display: block }
+    #original {                 height: 90%; margin: 0 }
+    #cc {                       margin-top: 3.4vw }
+
+    .th7_w4 {                   height: 108.7719vw; width: 61.4035vw; }
+    .tiles {                    height: 77.1930vw; width: 92.9825vw;}
+}
+@media screen and (min-width: 640px) and (max-width: 1023px) {
+    #underlay {                 padding: 2.1277vw 0 0 4.2553vw; width: 99vw; }
+    header {                    padding: 2.1277vw 0 0 4.2553vw; height: 14.8936vw; overflow: hidden }
+    #logo {                     height: 8vw; }
+
+    #nav li {                   margin: 0; font-size: 2.45vw; letter-spacing: 0.03em }
+    .stripe {                   left: -4.2553vw; height: 4.2553vw; padding: 0 0 0 4.2553vw; }
+
+    h3 {                        margin: 0; font-size: 2.45vw; line-height: 4.2553vw; }
+    h4 {                        margin: 0; font-size: 2.45vw; line-height: 3vw }
+    p {                         margin: 0; font-size: 2.25vw; line-height: 2.8vw; letter-spacing: 0.03em; }
+    hr {                        margin-top: -2.1277vw; }
+    footer {                    height: 4.2553vw; margin-top: 0; margin-left: -4.2553vw; }
+    #hangquote {                font-size: 2.45vw; line-height: 3vw; margin: 0 }
+    #author {                   font-size: 2.25vw; line-height: 2.8vw; letter-spacing: 0.03em; }
+
+    .button {                   font-size: 2.25vw; }
+    .button_top {               margin: 7vw 0 2.1277vw 0 }
+    input#toggle {              margin: 7.4vw 0 0 0; }
+
+    #scheme {                   width: 91.4894vw; margin: -1px 0 0 -1px }
+    #tiles1 {                   width: 68.0851vw; padding-left: 23.4043vw; margin: 0 0 0 -1px }
+    #tiles2a {                  height: 100%; background-color: #fafafa; }
+    #rows {                     width: 21.2766vw; margin-top: 0; display: block }
+    #original {                 height: 90%; margin: 0 }
+    #cc {                       margin-top: 5vw }
+
+    .ph6_w2 {                   height: 138.297vw; width: 44.6809vw; }
+    .tiles {                    height: 91.4894vw; width: 91.4894vw;}
+    #first_column:after {       content: "Modules are always square and obtained by multiplying U for a set amount of times. These squares can be easily stacked and grouped, allowing modularity." }
+    #second_column:after {      content: "As a result, setting text with a line height based on U will fall perfectly on the grid." }
+    #third_column:after {       content: "As shown in the following table, a 1x1 module is written as h1_w1. An element 3x6 will be h3_w6 and so no. Some of the most common sizes are provided in the CSS, but you can create more of them by multiplying (1x1 module + gutter)." }
+    #fourth_column:after {      content: "You must specify the size of the element for each step, using the right prefix: l for laptop, t for tablet, p for phablet, m for mobile and no prefix for desktop." }
+}
+@media screen and (max-width: 639px) {
+    #underlay {                 padding: 2.3810vw 0 0 4.7619vw; width: 99vw; }
+    header {                    padding: 2.3810vw 0 0 4.7619vw; height: 21.4286vw; overflow: hidden }
+    #logo {                     height: 12.5vw; }
+
+    #nav li {                   margin: 0; font-size: 3.8vw; letter-spacing: 0.03em }
+    .stripe {                   left: -4.7619vw; height: 9.5238vw; padding: 0 0 0 4.7619vw; }
+
+    h2 {                        margin: 0; font-size: 3.7vw; letter-spacing: 0.03em }
+    h3 {                        margin: 0; font-size: 4vw; line-height: 9.5238vw; }
+    h4 {                        margin: 0; font-size: 4.5vw; line-height: 5.6vw }
+    p {                         margin: 0; font-size: 3.8vw; line-height: 5vw; letter-spacing: 0.03em; }
+    hr {                        margin-top: -2.3810vw; }
+    footer {                    height: 9.5238vw; margin-top: 4.7619vw; margin-left: -4.7619vw; }
+    #hangquote, #rdquote {      display: none }
+    #author {                   font-size: 3.8vw; line-height: 5vw; letter-spacing: 0.03em; }
+
+    .button {                   font-size: 4.5vw; }
+
+    #scheme {                   width: 90.4762vw; margin: 4.7619vw 0 0 -1px }
+    #tiles1 {                   width: 90.4762vw; padding-left: 0vw; margin: 0 0 0 -1px }
+    #rows {                     display: none }
+    #original {                 height: auto; width: 200%; margin: 0 0 0 -50% }
+}
+
+@media only screen and (max-device-width: 480px) and (orientation: portrait), only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+@media only screen and (max-device-width: 480px) and (orientation: landscape), only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/*
+ * tiltEffect: Metro Tiles Tilt Effect
+ * URL: http://github.com/SalGnt/tiltEffect
+ * LICENSE: The MIT License (MIT)
+ */
+
+.tile {
+    transition:         all .1s linear;
+    -o-transition:      all .1s linear;
+    -moz-transition:    all .1s linear;
+    -webkit-transition: all .1s linear;
+}
+
+.center:active {
+    transform:          perspective(1200px) translateZ(-24px);
+    -o-transform:       perspective(1200px) translateZ(-24px);
+    -moz-transform:     perspective(1200px) translateZ(-24px);
+    -webkit-transform:  perspective(1200px) translateZ(-24px);
+}
+
+.top:active {
+    transform:          perspective(1200px) rotateX(12deg);
+    -o-transform:       perspective(1200px) rotateX(12deg);
+    -moz-transform:     perspective(1200px) rotateX(12deg);
+    -webkit-transform:  perspective(1200px) rotateX(12deg);
+}
+.right:active {
+    transform:          perspective(1200px) rotateY(12deg);
+    -o-transform:       perspective(1200px) rotateY(12deg);
+    -moz-transform:     perspective(1200px) rotateY(12deg);
+    -webkit-transform:  perspective(1200px) rotateY(12deg);
+}
+.bottom:active {
+    transform:          perspective(1200px) rotateX(-12deg);
+    -o-transform:       perspective(1200px) rotateX(-12deg);
+    -moz-transform:     perspective(1200px) rotateX(-12deg);
+    -webkit-transform:  perspective(1200px) rotateX(-12deg);
+}
+.left:active {
+    transform:          perspective(1200px) rotateY(-12deg);
+    -o-transform:       perspective(1200px) rotateY(-12deg);
+    -moz-transform:     perspective(1200px) rotateY(-12deg);
+    -webkit-transform:  perspective(1200px) rotateY(-12deg);
+}
+
